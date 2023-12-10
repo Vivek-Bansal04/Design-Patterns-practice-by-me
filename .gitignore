@@ -1,2 +1,6 @@
 .idea/
 /config
+*.iws
+*.iml
+*.ipr
+out/
