@@ -20,6 +20,7 @@ public abstract class Theme {
         }
     }
 
+    //factory method
     public abstract ThemeComponentFactory createComponentFactory();
 
 }
