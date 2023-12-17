@@ -1,7 +1,7 @@
-package behavioural.before;
+package behavioural.strategy.after1;
 
-public class GoogleMaps {
-    public void findPath(String from ,String to,TransportMode mode){
+public class PathCalculationStrategyFactory {
+    public static PathCalculationStrategy getPathCalculationStrategy(TransportMode mode){
         if(mode == TransportMode.CAR){
             System.out.println("finding path for car");
         } else if (mode == TransportMode.WALK) {
@@ -9,6 +9,6 @@ public class GoogleMaps {
         } else if (mode == TransportMode.BIKE) {
             System.out.println("finding path for bike");
         }
-
+        throw new RuntimeException("Illegal mode");
     }
 }

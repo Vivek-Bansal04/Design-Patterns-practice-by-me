@@ -1,4 +1,4 @@
-package behavioural.after2;
+package behavioural.strategy.after2;
 
 import java.util.HashMap;
 import java.util.Map;

@@ -1,4 +1,4 @@
-package behavioural.after2;
+package behavioural.strategy.after2;
 
 public class GoogleMaps {
     private PathCalculationRegistryStrategy registryStrategy;

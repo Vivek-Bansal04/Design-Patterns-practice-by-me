@@ -1,4 +1,4 @@
-package behavioural.after1;
+package behavioural.strategy.after2;
 
 public enum TransportMode {
     WALK,
